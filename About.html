@@ -1,0 +1,215 @@
+<!DOCTYPE html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Oceanic Wonders</title>
+    <link rel="stylesheet" href="Css.css">
+    <link rel="icon" href="icon.png">
+    <style>
+
+    .Form-con{
+        border-radius: 5px;
+        background-color: white;
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: auto;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    }
+    button{
+        background-color: green;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: greenyellow;
+    }
+    body{
+        margin: 0;    
+    }
+
+    @media (max-width: 600px) {
+        .card{
+            flex-basis: 100%;
+        }
+    }
+
+    ol,ul{
+        font-size: 20px;
+    }
+    main,.box,.nav,h1,h2{
+        animation: scroll-transition;
+        animation-timeline: scroll(y);
+    }
+    @keyframes scroll-transition{
+        0%{background-color: rgb(95, 255, 77);}
+        25%{background-color: rgb(84, 220, 69);}
+        50%{background-color: rgb(62, 159, 52);}
+        75%{background-color: rgb(47, 121, 39);}
+        100%{background-color: rgb(33, 81, 27);}
+
+    }
+    .animation{
+        animation-name:spin;
+        animation-timing-function: linear;
+        animation-iteration-count: 3;
+        animation-delay: 2s;
+        animation-duration: 3s;
+        animation-direction: alternate;
+    }
+    @keyframes spin{
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+        transform: rotate(-360deg);
+      }
+
+    }
+
+
+    </style>
+  </head>
+  <body>
+    
+
+    <header class="head" >
+      <h1 class="main-title" style="font-family: monospace;font-size: 50px;text-decoration: dotted; background-color: #fb8500;">About Oceanic Wonders 🤔</h1>
+      <ul class="dropdown" style="display: flex; text-align: center;justify-content: center; align-items: center;">
+                <li><a href="Main.html">Homepage</a></li>
+                <li><a style="padding-right: 30px;" href="The Ocean's Vastness & Fragility.html">The Ocean's Vastness & Fragility</a></li>
+                <li><a style="padding-right: 30px;" href="About.html">About</a> </li>
+                <li><a style="padding-right: 30px;" href="#">Ecosystems & life in Water</a>
+                   
+                    <ul>
+                        <li><a style="padding-right: 30px;" href="Marine life.html">Marine Life</a></li>
+                        <li><a style="padding-right: 30px;" href="Coral Reefs.html">Coral Reefs</a></li>
+                        <li><a style="padding-right: 30px;" href="Costal Ecosystems.html">Costal Ecosystems</a></li>
+                    </ul>
+                    
+                </li>    
+
+            </ul>
+    </header>
+
+    <main style="color: white;">
+      <div class="box pad-1" style=" border: 2px #48D1CC; color: white;">
+        <h2 style="color: white;font-family: monospace;">Welcome to Oceanic Wonders!</h2>
+        <iframe width="678" height="391" src="https://www.youtube.com/embed/P2JbTc9EMqY" allowfullscreen></iframe>
+        <p style="font-family:'Trebuchet MS',sans-serif ;">
+          Our oceans cover over 70% of the Earth's surface and are home to countless fascinating creatures and ecosystems. "Oceanic Wonders" is dedicated to exploring these mysteries, sharing amazing facts, and inspiring people to care for our blue planet.
+        </p>
+      </div><br>
+
+      <div class="box pad-2" style="border: 2px #48D1CC; color: white;">
+        <h2 style="font-family: monospace;color: white;">Our Mission</h2><br>
+        <div class="animation">
+          <img src="icon.png" height="150px" width="150px" style="border-radius: 100px;">
+        </div>
+        <p style="font-family:'Trebuchet MS',sans-serif ;">
+          We aim to educate 📖 and entertain readers by presenting ocean knowledge in a fun, engaging way. From the tiniest plankton to the deepest trenches, we want to highlight the beauty and importance of oceans.
+        </p>
+      </div><br>
+
+      <div class="box pad-2" style="border: 2px #48D1CC;">
+        <h2 style="font-family: monospace;color: white;">Why Oceans Matter</h2><br>
+        <iframe width="678" height="391" src="https://www.youtube.com/embed/vf587C_m94w" allowfullscreen></iframe>
+        <ul style="font-family:'Trebuchet MS',sans-serif ;">
+          <li><strong>◉ Climate regulation:</strong> Oceans absorb heat and carbon dioxide, helping stabilize the Earth's climate.</li><br>
+          <li><strong>◉ Oxygen production:</strong> Marine plants and plankton produce over half of the oxygen we breathe.</li><br>
+          <li><strong>◉ Food and resources:</strong> Millions of people rely on fish and seafood as a primary food source.</li><br>
+          <li><strong>◉ Biodiversity:</strong> Oceans are home to some of the most diverse and mysterious ecosystems on Earth.</li><br>
+        </ul>
+      </div><br>
+
+      <div class="box pad-2" style="border: 2px #48D1CC;">
+        <h2 style="font-family: monospace;color: white;">Fun Ocean Fact</h2><br>
+        <p style="font-family:'Trebuchet MS',sans-serif ;">
+          Did you know that we have explored less than 20% of the ocean? That means more than 80% of our oceans are still a mystery, waiting to reveal strange creatures and hidden landscapes.
+        </p>
+      </div><br>
+
+      <div class="box pad-2" style="border: 2px#48D1CC;">
+        <h2 style="color: white;font-family: monospace;">Get Involved</h2><br>
+        <p style="font-family:'Trebuchet MS',sans-serif ;">Dive into the mysteries of the ocean! Learn about the deep-sea creatures that glow in the dark,
+           the unexplored trenches, and the incredible ecosystems around hydrothermal vents. The more you 
+           discover about the ocean, the more you can appreciate its wonders and understand why it’s so 
+           important to protect.<br>You can also take action to protect the oceans in simple but meaningful 
+           ways: reduce plastic use, avoid polluting waterways, support marine conservation projects, 
+           and spread awareness about the importance of ocean health. Every small step helps keep our 
+           oceans thriving for generations to come.</p>
+      </div><br>
+      <div class="box pad-2" style="border: 2px#48D1CC;">
+        <h2 style="font-family: monospace;color: white;">Lets Test your ocean awareness</h2><br>
+
+        <form style="color: black; background-color: white;">
+
+          <form action="#" method="post"></form>
+          
+          <label for="q1" style="font-family: monospace;">1. What percentage of Earth is covered by oceans?</label>
+          <select id="q1" required name="q1">
+              <option value="" style="font-family:'Trebuchet MS',sans-serif ;">--Select an answer--</option>
+              <option value="50%" style="font-family:'Trebuchet MS',sans-serif ;">50%</option>
+              <option value="70%" style="font-family:'Trebuchet MS',sans-serif ;">70%</option>
+              <option value="85%" style="font-family:'Trebuchet MS',sans-serif ;">85%</option>
+              <option value="90%" style="font-family:'Trebuchet MS',sans-serif ;">90%</option>
+          </select>
+
+         
+          <label for="q2" style="font-family: monospace;">2. Which ocean is the largest on Earth?</label>
+          <select id="q2" required name="q2">
+              <option value="" style="font-family:'Trebuchet MS',sans-serif ;">--Select an answer--</option>
+              <option value="Atlantic" style="font-family:'Trebuchet MS',sans-serif ;">Atlantic Ocean</option>
+              <option value="Pacific" style="font-family:'Trebuchet MS',sans-serif ;">Pacific Ocean</option>
+              <option value="Indian" style="font-family:'Trebuchet MS',sans-serif ;">Indian Ocean</option>
+              <option value="Arctic" style="font-family:'Trebuchet MS',sans-serif ;">Arctic Ocean</option>
+          </select>
+
+          
+          <label for="q3" style="font-family: monospace;">3. What is the main threat to coral reefs?</label>
+          <select id="q3" required name="q3">
+              <option value="" style="font-family:'Trebuchet MS',sans-serif ;">--Select an answer--</option>
+              <option value="Pollution" style="font-family:'Trebuchet MS',sans-serif ;">Pollution</option>
+              <option value="Climate Change" style="font-family:'Trebuchet MS',sans-serif ;">Climate Change</option>
+              <option value="Overfishing" style="font-family:'Trebuchet MS',sans-serif ;">Overfishing</option>
+              <option value="All of the above" style="font-family:'Trebuchet MS',sans-serif ;">All of the above</option>
+          </select>
+
+          
+          <label for="q4" style="font-family: monospace;">4. What is a major cause of ocean plastic pollution?</label>
+          <select id="q4" required name="q4">
+              <option value="" style="font-family:'Trebuchet MS',sans-serif ;">--Select an answer--</option>
+              <option value="Industrial waste" style="font-family:'Trebuchet MS',sans-serif ;">Industrial waste</option>
+              <option value="Improper disposal of plastic" style="font-family:'Trebuchet MS',sans-serif ;">Improper disposal of plastic</option>
+              <option value="Oil spills" style="font-family:'Trebuchet MS',sans-serif ;">Oil spills</option>
+              <option value="Natural erosion" style="font-family:'Trebuchet MS',sans-serif ;">Natural erosion</option>
+          </select>
+
+          
+          <label for="q5" style="font-family: monospace;">5. Which practice helps conserve marine life?</label>
+          <select id="q5" required name="q5">
+              <option value="" style="font-family:'Trebuchet MS',sans-serif ;">--Select an answer--</option>
+              <option value="Reducing plastic use" style="font-family:'Trebuchet MS',sans-serif ;">Reducing plastic use</option>
+              <option value="Sustainable fishing" style="font-family:'Trebuchet MS',sans-serif ;">Sustainable fishing</option>
+              <option value="Protecting coral reefs" style="font-family:'Trebuchet MS',sans-serif ;">Protecting coral reefs</option>
+              <option value="All of the above" style="font-family:'Trebuchet MS',sans-serif ;">All of the above</option>
+          </select>
+
+          <input type="submit" value="Submit Quiz" style="font-family:'Trebuchet MS',sans-serif ;">
+      </div><br>
+    </main>
+
+    <footer class="foot">
+      <p style="font-family: monospace;">
+        © 2025 Oceanic Wonders<br>
+        Sources: Wikipedia, National Geographic, NOAA ,Google , Yahoo , Youtube
+      </p>
+    </footer>
+  </body>
+</html>
